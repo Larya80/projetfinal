@@ -1,0 +1,197 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d3d3d3;
+  padding: 0px;
+}
+
+.center-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p{
+	
+}
+/*header*/
+.header{
+  padding: 0px;
+ 
+}
+.responsive{
+  width: 100%;
+  height: auto;
+}
+.main{
+	margin-bottom: 200px;
+}
+/* footer*/
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin-top: 50px;
+}
+.container {
+  position: fixed;
+  text-align: center;
+  color: white;
+  padding: 0;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* page acceuil*/
+.topnav {
+  overflow: hidden;
+  background-color: #d3d3d3;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #1a5061;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #78a7bb;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #78a7bb;
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width:120px;
+}
+
+.topnav .login-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: #1a5061;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background-color: #78a7bb;
+}
+
+@media screen and (max-width: 700px) {
+  .topnav .login-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #1a5061;  
+  }
+}
+
+/* page contact*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #1a5061;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #78a7bb;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #1a5061;
+  text-align: left;
+  margin-bottom: auto;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+
+}
+
+h3{
+text-align:center;
+margin-bottom: 10px;
+color: #1a5061;
+}
+/* page blog*/
+.content {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  border: 10px solid #1a5061;
+  margin-top: 50px;
+}
+
+.videoFrame{
+  width:100%:
+}
+
+.videoFrame iframe{
+   margin: 0 auto;
+   display:block;
+   width: 520px;
+}
